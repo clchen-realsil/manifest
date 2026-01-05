@@ -14,19 +14,19 @@ manifest:
   # Please add items below based on alphabetical order
   projects:
     - name: ameba-rtos.git
-      path: .
+      path: sdk
       repo-path: Ameba-AIoT/ameba-rtos
       revision: master
     - name: gui
-      path: component/ui
+      path: sdk/component/ui
       repo-path: Ameba-AIoT/ameba-ui
       revision: master
     - name: lvgl-8.3
-      path: component/ui/LVGL/lvgl-8.3/lvgl
+      path: sdk/component/ui/LVGL/lvgl-8.3/lvgl
       repo-path: lvgl/lvgl
       revision: release/v8.3
     - name: lvgl-9.3
-      path: component/ui/LVGL/lvgl-9.3/lvgl
+      path: sdk/component/ui/LVGL/lvgl-9.3/lvgl
       repo-path: lvgl/lvgl
       revision: release/v9.3
 
